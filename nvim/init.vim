@@ -104,9 +104,9 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " ===========================
-" Themes
+" Темы
 " ===========================
 
-" Gruvbox Theme for nvim
+" Gruvbox тема для nvim
 set background=dark
 colorscheme gruvbox
