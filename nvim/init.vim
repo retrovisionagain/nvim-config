@@ -31,7 +31,7 @@ set fileencodings=utf-8        " Поддержка кодировки UTF-8 д�
 
 set nocompatible               " Отключаем совместимость с vi
 filetype plugin indent on      " Включаем поддержку плагинов 
-set clipboard=unnamedplus      " System Buffer
+set clipboard+=unnamedplus      " System Buffer
 
 " ===========================
 " Настройки отображения
@@ -97,7 +97,7 @@ set clipboard=unnamedplus
 " ===========================
 
 call plug#begin("~/.config/nvim/plugged")
-Plug 'ellisonleao/gruvbox.nvim'
+Plug 'Mofiqul/dracula.nvim'
 Plug 'preservim/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
@@ -107,6 +107,4 @@ call plug#end()
 " Темы
 " ===========================
 
-" Gruvbox тема для nvim
-set background=dark
-colorscheme gruvbox
+colorscheme dracula
